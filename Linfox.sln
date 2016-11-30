@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{23F3E256-1097-4467-9957-7A13A3AA0566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebResources", "WebResources\WebResources.csproj", "{68585B5E-8AFE-45D0-9DB6-7AD57493357F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpportunityQualification", "Plugins\OpportunityQualification\OpportunityQualification.csproj", "{C60FFDD6-AFBA-4049-BE54-1EC13E4662DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonFunctions", "CommonFunctions\CommonFunctions.csproj", "{78EEC2D9-C507-4176-A08E-4D4336F75DB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68585B5E-8AFE-45D0-9DB6-7AD57493357F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68585B5E-8AFE-45D0-9DB6-7AD57493357F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68585B5E-8AFE-45D0-9DB6-7AD57493357F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68585B5E-8AFE-45D0-9DB6-7AD57493357F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C60FFDD6-AFBA-4049-BE54-1EC13E4662DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60FFDD6-AFBA-4049-BE54-1EC13E4662DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C60FFDD6-AFBA-4049-BE54-1EC13E4662DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C60FFDD6-AFBA-4049-BE54-1EC13E4662DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78EEC2D9-C507-4176-A08E-4D4336F75DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78EEC2D9-C507-4176-A08E-4D4336F75DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78EEC2D9-C507-4176-A08E-4D4336F75DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78EEC2D9-C507-4176-A08E-4D4336F75DB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C60FFDD6-AFBA-4049-BE54-1EC13E4662DE} = {23F3E256-1097-4467-9957-7A13A3AA0566}
+		{78EEC2D9-C507-4176-A08E-4D4336F75DB9} = {23F3E256-1097-4467-9957-7A13A3AA0566}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mtikhonov.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WebResources\\WebResources.csproj
+		SccProjectName1 = WebResources
+		SccLocalPath1 = WebResources
+		SccProjectUniqueName2 = Plugins\\OpportunityQualification\\OpportunityQualification.csproj
+		SccProjectTopLevelParentUniqueName2 = Linfox.sln
+		SccProjectName2 = Plugins/OpportunityQualification
+		SccLocalPath2 = Plugins\\OpportunityQualification
+		SccProjectUniqueName3 = CommonFunctions\\CommonFunctions.csproj
+		SccProjectTopLevelParentUniqueName3 = Linfox.sln
+		SccProjectName3 = CommonFunctions
+		SccLocalPath3 = CommonFunctions
+	EndGlobalSection
+EndGlobal
